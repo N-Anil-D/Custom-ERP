@@ -1,0 +1,35 @@
+sunucuda silinen menuler
+
+
+Sipariş işlemleri [ERP]
+<i class="fas fa-list"></i>
+erp-siparis-islemleri
+40
+
+    Sipariş oluştur
+
+    erp-siparis-islemleri/siparis-olustur
+    41
+
+
+
+-------------------------------------------
+
+
+üretim raporu alabilir için değiştirildi
+ALTER TABLE `users` CHANGE `production_staff` `production_report` TINYINT(1) NOT NULL DEFAULT '0';
+
+sayım işlemini onaylayabilir
+ALTER TABLE `users` ADD `can_confirm_count` TINYINT(1) NOT NULL DEFAULT '0' AFTER `confirm_exit`;
+
+tüm depoları sayabilir
+ALTER TABLE `users` ADD `can_count_all` TINYINT(1) NOT NULL DEFAULT '0' AFTER `confirm_exit`;
+
+
+
+-------------------------------------------
+
+
+
+Eğer Üretim reçetesi tablosu çok dolduysa ve temizlemek istiyorsanız çekinmeden soft delete uygulanmış tüm satırları silebilirsiniz.
+DELETE FROM `erp_procustion_recipes` WHERE `deleted_at` IS NOT NULL
