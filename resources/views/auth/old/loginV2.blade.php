@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-    <title>{{ config('app.name', 'Invamed') }}</title>
+    <title>{{ config('app.name', 'CustomERP') }}</title>
     <link rel="icon" href="{{ url('img/icon.png') }}" />
     <link rel="shortcut icon" href="{{ url('img/icon.png') }}" type="image/x-icon" />
 
@@ -46,7 +46,7 @@
 </div>
 
 <div id="container">
-    <h1>INVAportal</h1>
+    <h1>CustomERP</h1>
     <span class="close-btn">
         <img src="{{ url('login-file/img/circle_close_delete_-128.webp') }}"></img>
     </span>

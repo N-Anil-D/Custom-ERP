@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet"/>
 
-        <title>INVAportal - Barcode Document</title>
+        <title>CustomERP - Barcode Document</title>
         
         <style>
 

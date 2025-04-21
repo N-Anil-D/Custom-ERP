@@ -92,7 +92,7 @@ class ProductionReportExport implements
             'subject'   => Auth::user()->name.' - Kullanıcısının kendisinin başlatıp bitirdiği üretimler',
             'description'    => Auth::user()->name.' - Kullanıcısının kendisinin başlatıp bitirdiği üretimler',
             'keywords'       => 'Üretim Raporu - '.Auth::user()->name,
-            'company'   => 'INVAMED',
+            'company'   => 'CustomERP',
         ];
     }
     

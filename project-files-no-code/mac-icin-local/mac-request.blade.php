@@ -73,14 +73,14 @@
 	<body>
 		<hr>
 		<div class="container center mt-3">
-			<img src="{{ url('img/logo-1.png') }}" height="40" alt="Invamed" />
+			<img src="{{ url('img/logo-1.png') }}" height="40" alt="CustomERP" />
 		</div>
 		<hr>
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="card-body">
-						<h4>INVAsystem | device record system</h4>
+						<h4>CustomERP | device record system</h4>
 						<div class="table-responsive" style="min-height: 160px;">
 							<table class="table table-bordered table-striped mb-0">
 								<tbody>
@@ -104,7 +104,7 @@
 							<input class="form-control mt-2" type="text" name="user" placeholder="kullanıcı bilgisi giriniz... (ad/soyad)" required>
 							<input class="form-control mt-2" type="text" name="location" placeholder="konum bilgisi ve özelliğini giriniz... (oda/kat - sabit/taşınabilir)" required>
 							<select name="type" id="" class="form-control mt-2" required>
-								<option value="0">INVAMED</option>
+								<option value="0">CustomERP</option>
 								<option value="1">şahsi mülk</option>
 							</select>
 							<div class="col mt-2">

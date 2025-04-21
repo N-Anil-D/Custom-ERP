@@ -110,7 +110,7 @@ class UserManage extends Component
             
             $this->user = [
                 'name'  => $data->name,
-                'tel_no' => $data->tel_no,
+                // 'tel_no' => $data->tel_no,
                 'email' => $data->email,
                 'active' => $data->active,
                 'telegram_id' => $data->telegram_id,
@@ -236,7 +236,7 @@ class UserManage extends Component
             // $subData = [
             //     'password' => $password
             // ];
-            // $subj = "INVAportal | Yeni Kullanıcı Hesabınız";
+            // $subj = "CustomERP | Yeni Kullanıcı Hesabınız";
             // $view = "mail.newUserV2";
             
             // Mail::to($newUser->email)->send(new SendMail($data, $subData, $subj, $view));
@@ -299,7 +299,7 @@ class UserManage extends Component
                 ->to($user->telegram_id)
                 ->line('*Sayın '.$user->name.'*')
                 ->line('')
-                ->line('Bu mesaj size ulaştıysa lütfen INVAMED IT departmanını ile iletişime geçin.')
+                ->line('Bu mesaj size ulaştıysa lütfen CustomERP IT departmanını ile iletişime geçin.')
                 ->line('İyi çalışmalar.')
                 ->send();
             Session::flash('success', $user->name.' kullanıcısına bildirim mesajı gönderildi.');

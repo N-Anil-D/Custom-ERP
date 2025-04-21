@@ -154,5 +154,5 @@ Route::prefix('dev-online')->group(function () {
 // Route::get('portal-api-test', function () {
 //     return Http::withHeaders([
 //         'Authorization' => 'Bearer KpVGXgeYb4EeVBRFaL1lXINdkyp7OPl9SPkBPfPb'
-//     ])->get('http://portal.rdglobal.com.tr.test/portal-api-test');
+//     ])->get('#test/portal-api-test');
 // });

@@ -9,7 +9,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}" />
         <meta name="title" content="{{ config('app.name') }}" />
 
-        <title>{{ config('app.name', 'INVAportal') }}</title>
+        <title>{{ config('app.name', 'CustomERP') }}</title>
         <link rel="icon" href="{{ url('img/icon.png') }}" />
         <link rel="shortcut icon" href="{{ url('img/icon.png') }}" type="image/x-icon" />
 

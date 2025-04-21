@@ -93,9 +93,9 @@
             <div class="card-body">
                 <div class="right-wrapper">
                     <div class="position-relative">
-                        <div class="position-absolute top-0 end-0">INVAchat</div>
+                        <div class="position-absolute top-0 end-0">BOT Chat</div>
                     </div>
-                    <p>Telegram üzerinden <a href="https://web.telegram.org/#@xxx" target="_blank">@telegramBot</a> a yazılan mesajlar</p>
+                    <p>Telegram üzerinden <a href="https://web.telegram.org/#@CustomERPshowcaseBOT" target="_blank">@CustomERPshowcaseBOT</a> a yazılan mesajlar</p>
                 </div>
                 <hr>
                 <div class="scrollable visible-slider colored-slider" data-plugin-scrollable style="height: 775px;">

@@ -366,11 +366,13 @@
                                                      style="padding-right: 0px;padding-left: 0px;">
                                                      <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="padding-right: 0px;padding-left: 0px;" align="center"><![endif]--><a
                                                         href="{{ url('/') }}" style="outline:none"
-                                                        tabindex="-1" target="_blank"><img align="center"
-                                                                                       alt="invamed.com" border="0" class="center fixedwidth"
-                                                                                       src="https://portal.rdglobal.com.tr/img/ya7NP7C26h79.png"
-                                                                                       style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 213px; display: block;"
-                                                                                       title="invamed.com" width="213" /></a>
+                                                        tabindex="-1" target="_blank">
+                                                        <img align="center"
+                                                            alt="devnad.com" border="0" class="center fixedwidth"
+                                                            src="#"
+                                                            style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 213px; display: block;"
+                                                            title="devnad.com" width="213" />
+                                                        </a>
                                                     <!--[if mso]></td></tr></table><![endif]-->
                                                 </div>
                                                 <!--[if (!mso)&(!IE)]><!-->
@@ -416,7 +418,7 @@
                                                                             valign="top">
                                                                             <td style="word-break: break-word; vertical-align: top; padding-bottom: 0; padding-right: 2.5px; padding-left: 2.5px;"
                                                                                 valign="top"><a
-                                                                                    href="https://tr-tr.facebook.com/rdglobal/"
+                                                                                    href="#"
                                                                                     target="_blank"><img alt="Facebook"
                                                                                                      height="32"
                                                                                                      src="{{ url('img/social/facebook2x.png') }}"
@@ -425,7 +427,7 @@
                                                                             </td>
                                                                             <td style="word-break: break-word; vertical-align: top; padding-bottom: 0; padding-right: 2.5px; padding-left: 2.5px;"
                                                                                 valign="top"><a
-                                                                                    href="https://www.instagram.com/rdglobal/"
+                                                                                    href="#"
                                                                                     target="_blank"><img alt="Instagram"
                                                                                                      height="32"
                                                                                                      src="{{ url('img/social/instagram2x.png') }}"
@@ -434,7 +436,7 @@
                                                                             </td>
                                                                             <td style="word-break: break-word; vertical-align: top; padding-bottom: 0; padding-right: 2.5px; padding-left: 2.5px;"
                                                                                 valign="top"><a
-                                                                                    href="https://tr.linkedin.com/company/rd-global-research-&-development"
+                                                                                    href="#"
                                                                                     target="_blank"><img alt="LinkedIn"
                                                                                                      height="32"
                                                                                                      src="{{ url('img/social/linkedin2x.png') }}"
@@ -443,7 +445,7 @@
                                                                             </td>
                                                                             <td style="word-break: break-word; vertical-align: top; padding-bottom: 0; padding-right: 2.5px; padding-left: 2.5px;"
                                                                                 valign="top"><a
-                                                                                    href="https://twitter.com/rdglobal_inc"
+                                                                                    href="#"
                                                                                     target="_blank"><img alt="Twitter"
                                                                                                      height="32"
                                                                                                      src="{{ url('img/social/twitter2x.png') }}"
@@ -452,7 +454,7 @@
                                                                             </td>
                                                                             <td style="word-break: break-word; vertical-align: top; padding-bottom: 0; padding-right: 2.5px; padding-left: 2.5px;"
                                                                                 valign="top"><a
-                                                                                    href="https://www.youtube.com/channel/UCIfj-_ZaNCw-t1kRqAavITQ"
+                                                                                    href="#"
                                                                                     target="_blank"><img alt="YouTube"
                                                                                                      height="32"
                                                                                                      src="{{ url('img/social/youtube2x.png') }}"
@@ -551,7 +553,7 @@
                                                             style="margin: 0; font-size: 10px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 12px; margin-top: 0; margin-bottom: 0;">
                                                             <span style="font-size: 10px;">
                                                                 <strong>
-                                                                INVAyazılım
+                                                                    CustomERP yazılım
                                                                 </strong>
                                                             </span></p>
                                                     </div>

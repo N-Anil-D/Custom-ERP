@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet"/>
 
-        <title>INVAportal - Barcode Document</title>
+        <title>CustomERP - Barcode Document</title>
         
         <style>
 
@@ -72,7 +72,7 @@
             @if($bar->quantity >0)
             @for ($i = 1; $i < $bar->quantity+1; $i++)
                 <div class="main">
-                    <img src="https://portal.rdglobal.com.tr/uretim/tube-back-v3.png" width="188.7mm"/>
+                    <img src="#uretim/tube-back-v3.png" width="188.7mm"/>
                     @if($bar->lot)<p class="lot">{{ $bar->lot }}</p>@endif
                     @if($bar->ref)<p class="ref">{{ $bar->ref }}</p>@endif
                     @if($bar->barcode)
@@ -85,7 +85,7 @@
             @endfor
             @else
                 <div class="main">
-                    <img src="https://portal.rdglobal.com.tr/uretim/tube-back-v2.png" width="188.7mm"/>
+                    <img src="#uretim/tube-back-v2.png" width="188.7mm"/>
                     @if($bar->lot)<p class="lot">{{ $bar->lot }}</p>@endif
                     @if($bar->ref)<p class="ref">{{ $bar->ref }}</p>@endif
                     @if($bar->barcode)

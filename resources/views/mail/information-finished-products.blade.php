@@ -114,7 +114,7 @@
 																style="padding-bottom:10px;padding-top:10px;width:100%;padding-right:0px;padding-left:0px;">
 																<div align="center" class="alignment"
 																	style="line-height:10px"><img alt="Yourlogo Light"
-																		src="{{ url('/img/invamed-white.png') }}"
+																		src="{{ url('/img/erp-white.png') }}"
 																		style="display: block; height: auto; border: 0; width: 268px; max-width: 100%;"
 																		title="Yourlogo Light" width="268" /></div>
 															</td>
@@ -299,7 +299,7 @@
 																style="width:100%;padding-right:0px;padding-left:0px;padding-top:20px;">
 																<div align="center" class="alignment"
 																	style="line-height:10px"><img alt="Yourlogo Light"
-																		src="{{ url('/img/invamed-white.png') }}"
+																		src="{{ url('/img/erp-white.png') }}"
 																		style="display: block; height: auto; border: 0; width: 204px; max-width: 100%;"
 																		title="Yourlogo Light" width="204" /></div>
 															</td>

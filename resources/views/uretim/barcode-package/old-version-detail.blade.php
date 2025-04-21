@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet"/>
 
-        <title>INVAportal - Barcode Document</title>
+        <title>CustomERP - Barcode Document</title>
         
         <style>
 
@@ -135,7 +135,7 @@
             @for ($i = 1; $i < $bar->quantity+1; $i++)
 
                 <div class="main">
-                    <img src="https://portal.rdglobal.com.tr/uretim/atlas-back.png" width="377.5mm"/>
+                    <img src="#uretim/atlas-back.png" width="377.5mm"/>
                     <p class="dimensions">{{ $bar->dimensions }}</p>
                     <p class="serialno">{{ $bar->serialno }}-{{ Str::padLeft($i, 3, '0') }}</p>
                     <p class="property1">{{ $bar->property1 }}</p>

@@ -28,7 +28,7 @@ class StockList extends Component
     public function downloadExcel()
     {
         
-        return Excel::download(new StockExport(), 'INVAportal_StockList_'.date('Ymd-Hi').'.xlsx');
+        return Excel::download(new StockExport(), 'CustomERP_StockList_'.date('Ymd-Hi').'.xlsx');
         
     }
     

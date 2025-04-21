@@ -3,9 +3,9 @@
     <div class="logo-container">
         <a href="{{ url('/') }}" class="logo">
             @if(Auth::user()->theme)
-                <img src="{{ url('img/logo-1.png') }}" width="100%" height="30" alt="Invamed Admin" />
+                <img src="{{ url('img/logo-1.png') }}" width="100%" height="30" alt="CustomERP Admin" />
             @else
-                <img src="{{ url('img/logo.webp') }}" width="100%" height="35" alt="Invamed Admin" />
+                <img src="{{ url('img/logo.webp') }}" width="100%" height="35" alt="CustomERP Admin" />
             @endif
         </a>
 

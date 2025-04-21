@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ url('/') }}">
-                        <img src="{{ url('img/logo-small.webp') }}" width="100%" height="20" alt="Invamed Portal" />
+                        <img src="{{ url('img/logo-small.webp') }}" width="100%" height="20" alt="CustomERP Portal" />
                     </a>
                 </div>
 

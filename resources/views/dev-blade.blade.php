@@ -25,7 +25,7 @@
     <hr>
     <div>
         <h1>Depo Ürünlerine Raf ekle</h1>
-        <h4>Sadece INVAlogistic ve Yarı muamül depo</h4>
+        <h4>Sadece CustomERP ve Yarı muamül depo</h4>
         <form action={{ route('import.erp.item.location') }} enctype="multipart/form-data" method="post">
             @csrf
             <input type="file" name="importFile">

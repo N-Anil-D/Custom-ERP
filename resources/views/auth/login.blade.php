@@ -14,10 +14,13 @@
 
         <form method="POST" action="{{ route('login') }}">
             @csrf
+            
             <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+            <h6>TEL NO : (999) 999 9999</h6>
             <input id="tel_no" type="text" name="tel_no" value="{{ old('tel_no') }}" inputmode="tel"
-                placeholder="Telefon No. (555) 123 4567" required />
-            <input type="password" name="password" required autocomplete="current-password" placeholder="Parola" />
+            placeholder="Telefon No. (999) 999 9999" required />
+            <h6>PW : test123456</h6>
+            <input id="pw" type="password" name="password" required autocomplete="current-password" placeholder="Parola" />
 
             <button type="submit">Giriş Yap</button>
             <div id="remember-container">
@@ -36,7 +39,7 @@
         <form method="POST" action="{{ route('password.reset') }}">
             @csrf
             <input id="tel_no2" type="text" name="tel_no" value="{{ old('tel_no') }}" inputmode="tel"
-                placeholder="Telefon No. (555) 123 4567" required />
+                placeholder="Telefon No. (999) 999 9999" required />
             <button type="submit" class="orange-btn">Parolamı Sıfırla</button>
         </form>
         <a class="back-login-page" href="{{ route('emailToTel.email.validate') }}">Kullanıcı adınız (Telefon No.) kayıtlı değilse tıklayınız.</a>

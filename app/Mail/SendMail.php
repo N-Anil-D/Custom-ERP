@@ -31,7 +31,7 @@ class SendMail extends Mailable
      */
     public function build()
     {
-        return $this->from('info@invamed.com','INVAportal')
+        return $this->from('info@test.com','CustomERP')
                 ->subject($this->subj)
                 ->view($this->view)
                 ->with([

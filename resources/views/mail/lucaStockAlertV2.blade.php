@@ -81,7 +81,7 @@
 														<tr>
 															<td>
 																<div style="color:#000000;direction:ltr;font-family:'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:center;">
-																	<p style="margin: 0;">INVAportal da oluşturduğunuz kritik stok seviyesi alarmınız saat {{ date('H:i') }} da çalıştı. Alarm koşullarınız:</p>
+																	<p style="margin: 0;">CustomERP da oluşturduğunuz kritik stok seviyesi alarmınız saat {{ date('H:i') }} da çalıştı. Alarm koşullarınız:</p>
 																</div>
 															</td>
 														</tr>
@@ -101,7 +101,7 @@
 														<tr>
 															<td>
 																<div style="color:#000000;direction:ltr;font-family:'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:center;">
-																	<p style="margin: 0;">Aşağıdaki butona tıklayarak INVAportal a giriş yapabilir ve size özel kritik stok alarmlarınızı portal üzerinden kontrol edebilirsiniz.</p>
+																	<p style="margin: 0;">Aşağıdaki butona tıklayarak CustomERP a giriş yapabilir ve size özel kritik stok alarmlarınızı portal üzerinden kontrol edebilirsiniz.</p>
 																</div>
 															</td>
 														</tr>
@@ -110,7 +110,7 @@
 														<tr>
 															<td>
 																<div align="center">
-																	<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://portal.rdglobal.com.tr/" style="height:42px;width:116px;v-text-anchor:middle;" arcsize="10%" stroke="false" fillcolor="#007cbd"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#ffffff; font-family:Tahoma, Verdana, sans-serif; font-size:16px"><![endif]--><a href="https://portal.rdglobal.com.tr/" target="_blank" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#007cbd;border-radius:4px;width:auto;border-top:1px solid #007cbd;border-right:1px solid #007cbd;border-bottom:1px solid #007cbd;border-left:1px solid #007cbd;padding-top:5px;padding-bottom:5px;font-family:'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;"><span style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;letter-spacing:normal;"><span style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;">INVAportal</span></span></a>
+																	<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:42px;width:116px;v-text-anchor:middle;" arcsize="10%" stroke="false" fillcolor="#007cbd"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#ffffff; font-family:Tahoma, Verdana, sans-serif; font-size:16px"><![endif]--><a href="#" target="_blank" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#007cbd;border-radius:4px;width:auto;border-top:1px solid #007cbd;border-right:1px solid #007cbd;border-bottom:1px solid #007cbd;border-left:1px solid #007cbd;padding-top:5px;padding-bottom:5px;font-family:'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;"><span style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;letter-spacing:normal;"><span style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;">CustomERP</span></span></a>
 																	<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
 																</div>
 															</td>
@@ -120,7 +120,7 @@
 														<tr>
 															<td>
 																<div style="color:#000000;direction:ltr;font-family:'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:center;">
-																	<p style="margin: 0;">Butona tıklayamıyorsanız tarayıcınızın adres çubuğuna "https://portal.rdglobal.com.tr" yazarak INVAportal a erişim sağlayabilirsiniz.</p>
+																	<p style="margin: 0;">Butona tıklayamıyorsanız tarayıcınızın adres çubuğuna "#" yazarak CustomERP a erişim sağlayabilirsiniz.</p>
 																</div>
 															</td>
 														</tr>
@@ -157,7 +157,7 @@
 													<table class="image_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 														<tr>
 															<td style="width:100%;padding-right:0px;padding-left:0px;">
-																<div align="center" style="line-height:10px"><a href="https://portal.rdglobal.com.tr/" target="_blank" style="outline:none" tabindex="-1"><img src="{{ url('img/ya7NP7C26h79.png') }}" style="display: block; height: auto; border: 0; width: 250px; max-width: 100%;" width="250" alt="invamed-logo" title="invamed-logo"></a></div>
+																<div align="center" style="line-height:10px"><a href="#" target="_blank" style="outline:none" tabindex="-1"><img src="{{ url('img/ya7NP7C26h79.png') }}" style="display: block; height: auto; border: 0; width: 250px; max-width: 100%;" width="250" alt="CustomERP-logo" title="CustomERP-logo"></a></div>
 															</td>
 														</tr>
 													</table>
@@ -182,11 +182,11 @@
 															<td>
 																<table class="social-table" width="180px" border="0" cellpadding="0" cellspacing="0" role="presentation" align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 																	<tr>
-																		<td style="padding:0 2px 0 2px;"><a href="https://tr-tr.facebook.com/rdglobal/" target="_blank"><img src="{{ url('img/social/facebook@2x.png') }}" width="32" height="32" alt="Facebook" title="facebook" style="display: block; height: auto; border: 0;"></a></td>
-																		<td style="padding:0 2px 0 2px;"><a href="https://twitter.com/rdglobal_inc" target="_blank"><img src="{{ url('img/social/twitter@2x.png') }}" width="32" height="32" alt="Twitter" title="twitter" style="display: block; height: auto; border: 0;"></a></td>
-																		<td style="padding:0 2px 0 2px;"><a href="https://tr.linkedin.com/company/rd-global-research-&-development" target="_blank"><img src="{{ url('img/social/linkedin@2x.png') }}" width="32" height="32" alt="Linkedin" title="linkedin" style="display: block; height: auto; border: 0;"></a></td>
-																		<td style="padding:0 2px 0 2px;"><a href="https://www.instagram.com/rdglobal/" target="_blank"><img src="{{ url('img/social/instagram@2x.png') }}" width="32" height="32" alt="Instagram" title="instagram" style="display: block; height: auto; border: 0;"></a></td>
-																		<td style="padding:0 2px 0 2px;"><a href="https://www.youtube.com/channel/UCIfj-_ZaNCw-t1kRqAavITQ" target="_blank"><img src="{{ url('img/social/youtube@2x.png') }}" width="32" height="32" alt="YouTube" title="YouTube" style="display: block; height: auto; border: 0;"></a></td>
+																		<td style="padding:0 2px 0 2px;"><a href="#" target="_blank"><img src="{{ url('img/social/facebook@2x.png') }}" width="32" height="32" alt="Facebook" title="facebook" style="display: block; height: auto; border: 0;"></a></td>
+																		<td style="padding:0 2px 0 2px;"><a href="#" target="_blank"><img src="{{ url('img/social/twitter@2x.png') }}" width="32" height="32" alt="Twitter" title="twitter" style="display: block; height: auto; border: 0;"></a></td>
+																		<td style="padding:0 2px 0 2px;"><a href="#" target="_blank"><img src="{{ url('img/social/linkedin@2x.png') }}" width="32" height="32" alt="Linkedin" title="linkedin" style="display: block; height: auto; border: 0;"></a></td>
+																		<td style="padding:0 2px 0 2px;"><a href="#" target="_blank"><img src="{{ url('img/social/instagram@2x.png') }}" width="32" height="32" alt="Instagram" title="instagram" style="display: block; height: auto; border: 0;"></a></td>
+																		<td style="padding:0 2px 0 2px;"><a href="#" target="_blank"><img src="{{ url('img/social/youtube@2x.png') }}" width="32" height="32" alt="YouTube" title="YouTube" style="display: block; height: auto; border: 0;"></a></td>
 																	</tr>
 																</table>
 															</td>
@@ -209,7 +209,7 @@
 														<tr>
 															<td>
 																<div style="color:#393d47;direction:ltr;font-family:'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;font-size:11px;font-weight:700;letter-spacing:0px;line-height:120%;text-align:center;">
-																	<p style="margin: 0;">INVAyazılım</p>
+																	<p style="margin: 0;">CustomERP yazılım</p>
 																</div>
 															</td>
 														</tr>

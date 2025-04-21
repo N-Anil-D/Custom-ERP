@@ -6,7 +6,7 @@
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Invamed') }}</title>
+        <title>{{ config('app.name', 'CustomERP') }}</title>
         <link rel="icon" href="{{ url('img/icon.png') }}">
         <link rel="shortcut icon" href="{{ url('img/icon.png') }}" type="image/x-icon">
 

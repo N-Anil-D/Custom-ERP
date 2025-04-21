@@ -27,7 +27,7 @@ class ErpTestBuild extends Command
     {
         DB::select('DROP VIEW products');
         DB::select('
-                create view rdglobal_portalapp.products as 
+                create view db_name.products as 
 
                 SELECT 
                 users.id as user_id,
@@ -44,12 +44,12 @@ class ErpTestBuild extends Command
                 erp_items.content as erp_items_content
                 
                 FROM 
-                rdglobal_portalapp.erp_warehouses as erp_warehouses left join 
-                rdglobal_portalapp.erp_items_warehouses as erp_items_warehouses on erp_items_warehouses.warehouse_id = erp_warehouses.id left join
-                rdglobal_portalapp.erp_items as erp_items on erp_items.id = erp_items_warehouses.item_id left join
-                rdglobal_portalapp.erp_users_warehouses as erp_users_warehouses on erp_users_warehouses.warehouse_id = erp_warehouses.id left join
-                rdglobal_portalapp.users as users on users.id = erp_users_warehouses.user_id inner join
-                rdglobal_portalapp.erp_units as erp_units on erp_units.id = erp_items.unit_id
+                db_name.erp_warehouses as erp_warehouses left join 
+                db_name.erp_items_warehouses as erp_items_warehouses on erp_items_warehouses.warehouse_id = erp_warehouses.id left join
+                db_name.erp_items as erp_items on erp_items.id = erp_items_warehouses.item_id left join
+                db_name.erp_users_warehouses as erp_users_warehouses on erp_users_warehouses.warehouse_id = erp_warehouses.id left join
+                db_name.users as users on users.id = erp_users_warehouses.user_id inner join
+                db_name.erp_units as erp_units on erp_units.id = erp_items.unit_id
                 
                 where 
                 erp_warehouses.deleted_at is null and 
@@ -68,7 +68,7 @@ class ErpTestBuild extends Command
     {
         DB::select('DROP VIEW notifications');
         DB::select('
-            create view rdglobal_portalapp.notifications as 
+            create view db_name.notifications as 
 
             SELECT 
             users.id as user_id,
@@ -86,10 +86,10 @@ class ErpTestBuild extends Command
             erp_approvals.created_at as erp_approvals_created_at
             
             FROM 
-            rdglobal_portalapp.users as users inner join 
-            rdglobal_portalapp.erp_users_warehouses as erp_users_warehouses on users.id = erp_users_warehouses.user_id inner join 
-            rdglobal_portalapp.erp_approvals as erp_approvals on erp_approvals.increased_warehouse_id = erp_users_warehouses.warehouse_id inner join
-            rdglobal_portalapp.erp_warehouses as erp_warehouses on erp_warehouses.id = erp_approvals.increased_warehouse_id 
+            db_name.users as users inner join 
+            db_name.erp_users_warehouses as erp_users_warehouses on users.id = erp_users_warehouses.user_id inner join 
+            db_name.erp_approvals as erp_approvals on erp_approvals.increased_warehouse_id = erp_users_warehouses.warehouse_id inner join
+            db_name.erp_warehouses as erp_warehouses on erp_warehouses.id = erp_approvals.increased_warehouse_id 
             
             where erp_users_warehouses.deleted_at is null and
             erp_approvals.deleted_at is null and 
